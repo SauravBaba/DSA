@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-#define n 5 
+#define n 3 
 
  class stack{
     
@@ -24,7 +24,7 @@ using namespace std;
 
   void pop(){
     if(top==-1){
-      cout<<"Stack underflow"<<endl;
+      cout<<"Stack Underflow !"<<endl;
       return ;
     }
 
@@ -52,15 +52,10 @@ int main(){
    st.push(0);
    st.push(1);
    st.push(2);
-   st.push(3);
-   st.push(4);
    st.pop();
-    st.pop();
-    st.pop();
-     st.pop();  
-     st.pop();  
+   st.pop();
+     
    cout<<st.Top()<<endl;
-   //
    cout<<st.isEmpty()<<endl;
   
    
