@@ -22,7 +22,9 @@ void reverseString(string s){
 }
 
 int main(){
-    string s = "Hello, how are you?";
+
+    string s ;
+    getline(cin, s);
     reverseString(s);
    
  return 0;
