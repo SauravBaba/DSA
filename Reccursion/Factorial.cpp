@@ -9,6 +9,8 @@ int fun(int n){
     int f = fun(n-1);
     int l =fun(n-2);
     return f+l;
+
+    //TC -> 2 power n
 }
 
 
